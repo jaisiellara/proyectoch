@@ -1,0 +1,64 @@
+.heads{
+    background-color: $bg_aviso;
+    color: $txt_gral;
+    margin: 1px;
+    border-radius: 5px;
+    padding: 20px;
+    h2{
+    display: flex;
+    justify-content: center;
+    font-family: $font-cursive;   
+    font-size: $font_g;        
+    }
+    h3{
+        text-align: center;
+        font-family: $font_gral;
+        font-size: $font_s;
+        }
+}
+.navbar-mod{
+    background-color: $bg_contraste;
+    margin: 4px;
+    border-radius: 5px;
+
+    .container-navmod{
+        width: auto;
+        padding: 20px;
+
+        .btn-mod{
+            border: #EDE6DB;
+            font-size: 15px;
+            color: #FCF6B1;
+        }
+        .bar-container{
+            .link-mod{
+                border-radius: 4px;
+                color: $txt_gral;    
+                margin: 9px;
+                padding: 1px;
+                text-align: center;
+                font-family: $font_gral;
+                font-size: $font_s;
+                &:hover{
+                    background-color: white ;
+                    color: $bg_contraste;
+                }
+            }
+        }
+    }
+    
+
+}
+header{
+    text-align: center;
+    h1{    
+    font-family: $font_header;
+    font-size: $font_header_px; 
+
+    }
+    h4{
+    font-family: $font_gral;
+    font-size: $font_m;
+    margin-bottom: 10px;
+    }
+}

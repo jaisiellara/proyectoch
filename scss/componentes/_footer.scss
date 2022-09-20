@@ -1,0 +1,22 @@
+
+footer{
+    display: block;      
+    text-align: center;
+    font-family: $font_gral;         
+    background-color: $bg_contraste;
+    color: $txt_gral;
+    border-radius: 5px;
+    
+    hr{
+        height: 3px;
+        background-color: white; 
+
+    }
+    h1{
+        font-size: $font_xl;
+    }
+    h2{
+        font-size: $font_m;
+
+    }
+ }

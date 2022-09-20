@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Bona+Nova&family=Ms+Madi&family=Roboto+Slab:wght@300&display=swap");
+body {
+  background-color: #EBE7EE;
+  font-family: "Roboto Slab", serif;
+}
+
+.heads {
+  background-color: #EA7A0B;
+  color: white;
+  margin: 1px;
+  border-radius: 5px;
+  padding: 20px;
+}
+.heads h2 {
+  display: flex;
+  justify-content: center;
+  font-family: "Ms Madi", cursive;
+  font-size: 50px;
+}
+.heads h3 {
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  font-size: 25px;
+}
+
+.navbar-mod {
+  background-color: #2D3937;
+  margin: 4px;
+  border-radius: 5px;
+}
+.navbar-mod .container-navmod {
+  width: auto;
+  padding: 20px;
+}
+.navbar-mod .container-navmod .btn-mod {
+  border: #EDE6DB;
+  font-size: 15px;
+  color: #FCF6B1;
+}
+.navbar-mod .container-navmod .bar-container .link-mod {
+  border-radius: 4px;
+  color: white;
+  margin: 9px;
+  padding: 1px;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  font-size: 25px;
+}
+.navbar-mod .container-navmod .bar-container .link-mod:hover {
+  background-color: white;
+  color: #2D3937;
+}
+
+header {
+  text-align: center;
+}
+header h1 {
+  font-family: "Bona Nova", serif;
+  font-size: 70px;
+}
+header h4 {
+  font-family: "Roboto Slab", serif;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.portada {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+.portada img {
+  border-radius: 5px;
+}
+
+.foot {
+  display: block;
+  text-align: center;
+  font-size: 35px;
+  background-color: #2D3937;
+  color: white;
+  border-radius: 5px;
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+footer {
+  display: block;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  background-color: #2D3937;
+  color: white;
+  border-radius: 5px;
+}
+footer hr {
+  height: 3px;
+  background-color: white;
+}
+footer h1 {
+  font-size: 65px;
+}
+footer h2 {
+  font-size: 35px;
+}
+
+/*# sourceMappingURL=style.css.map */
