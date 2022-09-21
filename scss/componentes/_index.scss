@@ -22,3 +22,34 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+.carrusel-mod{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    
+    .carousel-item-1{
+        height:800px;
+        background-image: url(../imgs/collage1.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        object-fit:fill;
+        background-color: $bg_general;
+    }
+   .carousel-item-2{
+        height:800px;
+        background-image: url(../imgs/collage2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        object-fit:fill;
+        background-color: $bg_general;
+    }
+    .carousel-item-3{
+            height:800px;
+            background-image: url(../imgs/collage3.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            object-fit:fill;
+            background-color: $bg_general;
+    }
+   
+}
