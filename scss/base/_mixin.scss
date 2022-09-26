@@ -1,0 +1,8 @@
+@mixin item-carrusel {
+    height:550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit:fill;
+    background-color: $bg_contraste;
+    
+}

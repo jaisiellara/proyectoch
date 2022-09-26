@@ -1,0 +1,6 @@
+$colores: (
+    register: $txt_gral,
+);
+.forms{
+    background-color: map-get($colores , register);
+}

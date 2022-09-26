@@ -1,0 +1,18 @@
+%ajustespr{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    font-family: $font_gral;
+    text-align: justify;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 10px;
+    font-size: $font_s;
+}
+.history{
+    background-color: $bg_contraste;
+    padding: 20px;
+    border-radius: 5px;
+    color: $txt_gral;
+    @extend%ajustespr;
+}
