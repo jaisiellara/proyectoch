@@ -8,13 +8,28 @@
     display: flex;
     justify-content: center;
     font-family: $font-cursive;   
-    font-size: $font_g;        
+    font-size: $font_g;  
+    /*media queries*/
+    @media only screen and (max-width: 986px){
+        font-size: $font_m;
+    }
+    @media only screen and (max-width: 581px){
+        font-size: $font_s;
+    }
+    
+
     }
     h3{
         text-align: center;
         font-family: $font_gral;
         font-size: $font_s;
+        /*media queries*/
+       
+        @media only screen and (max-width: 581px){
+            font-size:$font_xs;
         }
+
+               }
 }
 .navbar-mod{
     background-color: $bg_contraste;
@@ -38,10 +53,20 @@
                 padding: 1px;
                 text-align: center;
                 font-family: $font_gral;
-                font-size: $font_s;
+                font-size:$font_s;
                 &:hover{
                     background-color: white ;
-                    color: $bg_contraste;
+                    color:$bg_contraste;
+                }
+                @media only screen and (max-width: 986px){
+                    font-size: $font_s;
+                    margin: auto;
+                                     
+
+                }
+                @media only screen and (max-width: 581px){
+                    font-size: $font_xs;
+                    margin: auto;
                 }
             }
         }
@@ -54,11 +79,26 @@ header{
     h1{    
     font-family: $font_header;
     font-size: $font_header_px; 
-
+    /*media queries*/
+    @media only screen and (max-width: 581px){
+        font-size: $font_g;
+    }
+   
     }
     h4{
     font-family: $font_gral;
     font-size: $font_m;
     margin-bottom: 10px;
+    /*Media Queries*/
+    @media only screen and (max-width: 986px){
+        font-size: $font_m;
+        
+    }
+    @media only screen and (max-width: 581px){
+        font-size: $font_s;
+    }
+    
+      
     }
 }
+

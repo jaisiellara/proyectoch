@@ -14,9 +14,23 @@ footer{
     }
     h1{
         font-size: $font_xl;
+        /*Media queries*/
+        @media only screen and (max-width: 986px){
+
+        }
+        @media only screen and (max-width: 581px){
+            font-size: $font_g;  
+        }
     }
     h2{
         font-size: $font_m;
+          /*Media queries*/
+          @media only screen and (max-width: 986px){
+
+        }
+        @media only screen and (max-width: 581px){
+            font-size: $font_s; 
+        }
 
     }
  }

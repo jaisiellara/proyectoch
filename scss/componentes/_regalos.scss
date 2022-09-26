@@ -1,0 +1,40 @@
+.regalos{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: $font_gral;
+
+    h1{
+        font-size: $font_m;
+        @media only screen and (max-width: 581px){
+            font-size: $font_s;
+        }
+
+    }
+}
+.liverpool{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 400px;
+    justify-content: center;  
+    a{
+       img{ border-radius: 4px;
+            @media only screen and (max-width: 986px){
+            width: $mqtabletpx;    
+            }
+            @media only screen and (max-width: 581px){
+                width: $mqmobilepx;
+            }
+        }
+           
+       
+
+
+
+    }
+}
+
