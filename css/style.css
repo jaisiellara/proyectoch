@@ -305,12 +305,11 @@ footer h2 {
     display: none;
   }
 }
-
-.carrusel-mod {
+.carrusel .carrusel-mod {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.carrusel-mod .carousel-item-1 {
+.carrusel .carrusel-mod .carousel-item-1 {
   background-image: url(../imgs/collage1.jpg);
   height: 550px;
   background-position: center;
@@ -318,7 +317,7 @@ footer h2 {
   object-fit: fill;
   background-color: #2D3937;
 }
-.carrusel-mod .carousel-item-2 {
+.carrusel .carrusel-mod .carousel-item-2 {
   background-image: url(../imgs/collage2.jpg);
   height: 550px;
   background-position: center;
@@ -326,7 +325,7 @@ footer h2 {
   object-fit: fill;
   background-color: #2D3937;
 }
-.carrusel-mod .carousel-item-3 {
+.carrusel .carrusel-mod .carousel-item-3 {
   background-image: url(../imgs/collage3.jpg);
   height: 550px;
   background-position: center;

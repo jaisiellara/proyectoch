@@ -45,13 +45,10 @@
         display: none;       
         
      }
-}
-
-
-.carrusel-mod{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    
+     
+     .carrusel-mod{
+        margin-top: 20px;
+        margin-bottom: 20px;    
     
     .carousel-item-1{
         background-image: url(../imgs/collage1.jpg);
@@ -68,6 +65,7 @@
             @include item-carrusel()
             }
    
+}
 }
 .galeria{
     display: grid;
