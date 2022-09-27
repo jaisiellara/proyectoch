@@ -68,14 +68,14 @@
     }
     
    
-    .map{
-        
-        
+    .map{       
     display: flex;    
-    justify-content: center;    
+    justify-content:stretch;    
     margin-top: 20px;
-    margin-bottom: 20px;
-   
+    margin-bottom: 20px;  
+    iframe{
+        width: -webkit-fill-available;
+    } 
     
     }
 

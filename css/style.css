@@ -212,9 +212,12 @@ body {
 }
 .foot .map {
   display: flex;
-  justify-content: center;
+  justify-content: stretch;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+.foot .map iframe {
+  width: -webkit-fill-available;
 }
 
 footer {
