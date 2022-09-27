@@ -1,12 +1,14 @@
 .history{
+    margin-left: 150px;
+    margin-right: 150px;
    
     /*Media Queries*/
     @media only screen and (max-width: 986px){
-        margin-top: 20px;
-        margin-left: 40px;
-        margin-right: 40px;
+        margin-top: 15px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
-    @media only screen and (max-width: 581px){}
+    
     h1{
     font-size: $font_g;
     text-align: center;
@@ -47,8 +49,8 @@
 
 
 .carrusel-mod{
-    margin-top: 150px;
-    margin-bottom: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     
     
     .carousel-item-1{

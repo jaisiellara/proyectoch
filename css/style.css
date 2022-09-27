@@ -253,13 +253,15 @@ footer h2 {
 }
 
 .history {
+  margin-left: 150px;
+  margin-right: 150px;
   /*Media Queries*/
 }
 @media only screen and (max-width: 986px) {
   .history {
-    margin-top: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
 .history h1 {
@@ -305,8 +307,8 @@ footer h2 {
 }
 
 .carrusel-mod {
-  margin-top: 150px;
-  margin-bottom: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .carrusel-mod .carousel-item-1 {
   background-image: url(../imgs/collage1.jpg);
