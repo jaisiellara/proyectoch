@@ -212,7 +212,7 @@ body {
 }
 .foot .map {
   display: flex;
-  justify-content: stretch;
+  justify-content: center;
   margin-top: 20px;
   margin-bottom: 20px;
 }
