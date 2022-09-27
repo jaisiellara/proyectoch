@@ -5,7 +5,8 @@
     flex-direction: row;
     margin-top: 20px;
     margin-bottom: 20px;
-    justify-content: center;    
+    justify-content: center; 
+    align-items: center;   
     background-image: url(../imgs/flow.jpg);
     background-repeat: no-repeat;
     @media only screen and (max-width: 986px){
@@ -14,23 +15,66 @@
     }
     
     img{
-        margin-top: 250px;
+        
         border-radius: 8px;  
         /*media queries*/
         @media only screen and (max-width: 986px){
             width: 500px;         
             margin-top: 20px;
         }
+        @media only screen and (max-width: 581px){
+            width: 340px;
+        }
               
     }
 }
 .foot{
-    display: block;        
-    text-align: center;
-    font-size: $font_m;
+    display: grid;  
+    grid-template-columns: repeat(2, 1fr) ;
+    grid-template-rows: repeat(1, 1fr);  
     background-color: $bg_contraste;
     color: $txt_gral;
     border-radius: 5px;
+    margin: 15px;
+    padding: 30px;
+    height: 600px;
+    width: auto;
+    @media only screen and (max-width: 1400px){
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    @media only screen and (max-width: 581px){
+        height: auto;
+    }
+
+
+    .txtf{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;  
+
+        
+        h3{           
+             font-size: $font_m;  
+             @media only screen and (max-width: 1400px){    
+                font-size: $font_s;
+             }  
+             @media only screen and (max-width: 581px){
+                font-size: $font_xs;
+            }     
+        }
+    }
+    
+   
+    .map{
+        display: flex;
+
+    }
+
+    
+    
 }
 .map{
     display: flex;    
