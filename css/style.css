@@ -456,10 +456,10 @@ footer h2 {
 
 .forms {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   margin-top: 50px;
   margin-bottom: 50px;
-  align-content: center;
+  justify-content: center;
 }
 
 .regalos {
