@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Ms+Madi&family=Playfair+Display+SC&family=Roboto+Serif:opsz@8..144&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ms+Madi&family=Playfair+Display+SC&family=Roboto+Serif:opsz@8..144&family=Square+Peg&display=swap");
 .forms {
   background-color: white;
 }
@@ -65,7 +65,17 @@
 }
 .navbar-mod .container-navmod {
   width: auto;
-  padding: 20px;
+}
+@media only screen and (max-width: 986px) {
+  .navbar-mod .container-navmod {
+    width: 100%;
+    justify-content: flex-start;
+  }
+}
+@media only screen and (max-width: 581px) {
+  .navbar-mod .container-navmod {
+    width: 100%;
+  }
 }
 .navbar-mod .container-navmod .btn-mod {
   border: #EDE6DB;
@@ -100,10 +110,11 @@
 
 header {
   text-align: center;
+  padding: 20px;
 }
 header h1 {
-  font-family: "Playfair Display SC", serif;
-  font-size: 70px;
+  font-family: "Square Peg", cursive;
+  font-size: 90px;
   /*media queries*/
 }
 @media only screen and (max-width: 581px) {
@@ -113,18 +124,18 @@ header h1 {
 }
 header h4 {
   font-family: "Roboto Slab", serif;
-  font-size: 35px;
+  font-size: 25px;
   margin-bottom: 10px;
   /*Media Queries*/
 }
 @media only screen and (max-width: 986px) {
   header h4 {
-    font-size: 35px;
+    font-size: 25px;
   }
 }
 @media only screen and (max-width: 581px) {
   header h4 {
-    font-size: 25px;
+    font-size: 19px;
   }
 }
 
@@ -133,6 +144,7 @@ body {
   font-family: "Roboto Slab", serif;
 }
 
+/*ajustes de imagen portada*/
 .portada {
   width: auto;
   height: 1200px;
@@ -223,10 +235,11 @@ body {
 footer {
   display: block;
   text-align: center;
-  font-family: "Roboto Slab", serif;
+  font-family: "Playfair Display SC", serif;
   background-color: #2D3937;
   color: white;
   border-radius: 5px;
+  margin-top: auto;
 }
 footer hr {
   height: 3px;
@@ -243,12 +256,41 @@ footer h1 {
 }
 footer h2 {
   font-size: 35px;
+  font-family: "Roboto Slab", serif;
   /*Media queries*/
 }
 @media only screen and (max-width: 581px) {
   footer h2 {
     font-size: 25px;
   }
+}
+
+.formulario {
+  font-family: "Roboto Slab", serif;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+}
+.formulario .formu {
+  display: block;
+  align-content: center;
+  margin: 30px;
+}
+.formulario .formu .confirmar {
+  font-family: "Ms Madi", cursive;
+}
+.formulario .btn_enviar {
+  display: flex;
+  justify-content: center;
+}
+.formulario .valida {
+  margin: 10px;
+  text-align: center;
+}
+.formulario .asist {
+  display: flex;
+  justify-content: center;
 }
 
 .history {

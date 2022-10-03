@@ -2,10 +2,11 @@
 footer{
     display: block;      
     text-align: center;
-    font-family: $font_gral;         
+    font-family: $font_header;         
     background-color: $bg_contraste;
     color: $txt_gral;
     border-radius: 5px;
+    margin-top: auto;
     
     hr{
         height: 3px;
@@ -24,6 +25,7 @@ footer{
     }
     h2{
         font-size: $font_m;
+        font-family: $font_gral;
           /*Media queries*/
           @media only screen and (max-width: 986px){
 
@@ -34,3 +36,35 @@ footer{
 
     }
  }
+
+ .formulario{
+    font-family: $font_gral;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    .formu{
+        display: block;
+        align-content: center;
+        margin: 30px;
+        .confirmar{
+            font-family: $font-cursive;
+        }
+    }
+    .btn_enviar{
+        display: flex;
+        justify-content: center;
+    }
+     .valida{
+        margin: 10px;
+        text-align: center;        
+     }
+    
+     .asist{
+        display: flex;
+        justify-content: center;
+     }
+    
+ 
+
+}

@@ -38,7 +38,13 @@
 
     .container-navmod{
         width: auto;
-        padding: 20px;
+        @media only screen and (max-width: 986px){
+            width: 100%;
+            justify-content: flex-start;
+        }
+        @media only screen and (max-width: 581px){
+            width: 100%;
+        }
 
         .btn-mod{
             border: #EDE6DB;
@@ -76,8 +82,9 @@
 }
 header{
     text-align: center;
+    padding: 20px;
     h1{    
-    font-family: $font_header;
+    font-family: $font_header2;
     font-size: $font_header_px; 
     /*media queries*/
     @media only screen and (max-width: 581px){
@@ -87,15 +94,15 @@ header{
     }
     h4{
     font-family: $font_gral;
-    font-size: $font_m;
+    font-size: $font_s;
     margin-bottom: 10px;
     /*Media Queries*/
     @media only screen and (max-width: 986px){
-        font-size: $font_m;
+        font-size: $font_s;
         
     }
     @media only screen and (max-width: 581px){
-        font-size: $font_s;
+        font-size: $font_xs;
     }
     
       
