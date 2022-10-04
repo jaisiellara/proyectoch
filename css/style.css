@@ -22,42 +22,6 @@
   color: white;
 }
 
-.heads {
-  background-color: #EA7A0B;
-  color: white;
-  margin: 1px;
-  border-radius: 5px;
-  padding: 20px;
-}
-.heads h2 {
-  display: flex;
-  justify-content: center;
-  font-family: "Ms Madi", cursive;
-  font-size: 50px;
-  /*media queries*/
-}
-@media only screen and (max-width: 986px) {
-  .heads h2 {
-    font-size: 35px;
-  }
-}
-@media only screen and (max-width: 581px) {
-  .heads h2 {
-    font-size: 25px;
-  }
-}
-.heads h3 {
-  text-align: center;
-  font-family: "Roboto Slab", serif;
-  font-size: 25px;
-  /*media queries*/
-}
-@media only screen and (max-width: 581px) {
-  .heads h3 {
-    font-size: 19px;
-  }
-}
-
 .navbar-mod {
   background-color: #2D3937;
   margin: 4px;
@@ -144,18 +108,54 @@ body {
   font-family: "Roboto Slab", serif;
 }
 
+.heads {
+  background-color: #EA7A0B;
+  color: white;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 30px;
+}
+.heads h2 {
+  display: flex;
+  justify-content: center;
+  font-family: "Ms Madi", cursive;
+  font-size: 50px;
+  /*media queries*/
+}
+@media only screen and (max-width: 986px) {
+  .heads h2 {
+    font-size: 35px;
+  }
+}
+@media only screen and (max-width: 581px) {
+  .heads h2 {
+    font-size: 25px;
+  }
+}
+.heads h3 {
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  font-size: 25px;
+  /*media queries*/
+}
+@media only screen and (max-width: 581px) {
+  .heads h3 {
+    font-size: 19px;
+  }
+}
+
 /*ajustes de imagen portada*/
 .portada {
-  width: auto;
-  height: 1200px;
   display: flex;
   flex-direction: row;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 5px;
+  margin-bottom: 10px;
   justify-content: center;
   align-items: center;
   background-image: url(../imgs/flow.jpg);
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 @media only screen and (max-width: 986px) {
   .portada {
@@ -186,7 +186,7 @@ body {
   background-color: #2D3937;
   color: white;
   border-radius: 5px;
-  margin: 15px;
+  margin: 5px;
   padding: 30px;
   height: 600px;
   width: auto;
@@ -284,9 +284,22 @@ footer h2 {
   display: flex;
   justify-content: center;
 }
+.formulario .btn_enviar .btn-m {
+  background-color: #2D3937;
+  color: white;
+}
+.formulario .btn_enviar .btn-m:hover {
+  background-color: #EA7A0B;
+}
 .formulario .valida {
   margin: 10px;
   text-align: center;
+  outline: none !important;
+  outline-width: 0 !important;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  border-color: black;
 }
 .formulario .asist {
   display: flex;

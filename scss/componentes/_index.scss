@@ -1,15 +1,48 @@
+.heads{
+    background-color: $bg_aviso;
+    color: $txt_gral;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 30px;
+    h2{
+    display: flex;
+    justify-content: center;
+    font-family: $font-cursive;   
+    font-size: $font_g;  
+    /*media queries*/
+    @media only screen and (max-width: 986px){
+        font-size: $font_m;
+    }
+    @media only screen and (max-width: 581px){
+        font-size: $font_s;
+    }
+    }
+    h3{
+        text-align: center;
+        font-family: $font_gral;
+        font-size: $font_s;
+        /*media queries*/
+       
+        @media only screen and (max-width: 581px){
+            font-size:$font_xs;
+        }
+
+               }
+}
+
 /*ajustes de imagen portada*/
-.portada{
-    width: auto;
-    height: 1200px;
+.portada{    
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
     justify-content: center; 
     align-items: center;   
     background-image: url(../imgs/flow.jpg);
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
     @media only screen and (max-width: 986px){
         height: 500px;         
         margin-top: 20px;
@@ -29,7 +62,6 @@
               
     }
 }
-
 .foot{
     display: grid;  
     grid-template-columns: repeat(2, 1fr) ;
@@ -37,7 +69,7 @@
     background-color: $bg_contraste;
     color: $txt_gral;
     border-radius: 5px;
-    margin: 15px;
+    margin: 5px;
     padding: 30px;
     height: 600px;
     width: auto;
@@ -49,15 +81,11 @@
     @media only screen and (max-width: 581px){
         height: auto;
     }
-
-
     .txtf{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;  
-
-        
+        align-items: center;          
         h3{           
              font-size: $font_m;  
              @media only screen and (max-width: 1400px){    
@@ -68,8 +96,6 @@
             }     
         }
     }
-    
-   
     .map{       
     display: flex;    
     justify-content:center;    
@@ -80,8 +106,5 @@
     } 
     
     }
-
-    
-    
 }
 

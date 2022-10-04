@@ -1,36 +1,4 @@
-.heads{
-    background-color: $bg_aviso;
-    color: $txt_gral;
-    margin: 1px;
-    border-radius: 5px;
-    padding: 20px;
-    h2{
-    display: flex;
-    justify-content: center;
-    font-family: $font-cursive;   
-    font-size: $font_g;  
-    /*media queries*/
-    @media only screen and (max-width: 986px){
-        font-size: $font_m;
-    }
-    @media only screen and (max-width: 581px){
-        font-size: $font_s;
-    }
-    
 
-    }
-    h3{
-        text-align: center;
-        font-family: $font_gral;
-        font-size: $font_s;
-        /*media queries*/
-       
-        @media only screen and (max-width: 581px){
-            font-size:$font_xs;
-        }
-
-               }
-}
 .navbar-mod{
     background-color: $bg_contraste;
     margin: 4px;
@@ -45,7 +13,6 @@
         @media only screen and (max-width: 581px){
             width: 100%;
         }
-
         .btn-mod{
             border: #EDE6DB;
             font-size: 15px;
@@ -77,8 +44,6 @@
             }
         }
     }
-    
-
 }
 header{
     text-align: center;
@@ -90,7 +55,6 @@ header{
     @media only screen and (max-width: 581px){
         font-size: $font_g;
     }
-   
     }
     h4{
     font-family: $font_gral;
@@ -104,8 +68,6 @@ header{
     @media only screen and (max-width: 581px){
         font-size: $font_xs;
     }
-    
-      
     }
 }
 

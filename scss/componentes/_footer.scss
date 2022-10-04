@@ -54,10 +54,24 @@ footer{
     .btn_enviar{
         display: flex;
         justify-content: center;
+        .btn-m{
+            background-color: $bg_contraste;
+            color: $txt_gral;
+            &:hover{
+                background-color: $bg_aviso;
+            }
+
+        }
     }
      .valida{
         margin: 10px;
-        text-align: center;        
+        text-align: center;    
+        outline:none !important;
+        outline-width: 0 !important;
+        box-shadow: none;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+        border-color: black;
      }
     
      .asist{
