@@ -1,10 +1,9 @@
 .history{
     margin-left: 150px;
     margin-right: 150px;
-   
     /*Media Queries*/
     @media only screen and (max-width: 986px){
-        margin-top: 15px;
+        margin-top: 5px;
         margin-left: 20px;
         margin-right: 20px;
     }
@@ -45,26 +44,18 @@
         display: none;       
         
      }
-     
      .carrusel-mod{
-        margin-top: 20px;
-        margin-bottom: 20px;    
-    
-    .carousel-item-1{
+        margin-top: 10px;
+        margin-bottom: 20px;        
+        .carousel-item-1{
         background-image: url(../imgs/collage1.jpg);
-        @include item-carrusel()
-               
-    }
-   .carousel-item-2{
+        @include item-carrusel()      }
+    .carousel-item-2{
     background-image: url(../imgs/collage2.jpg);
-        @include item-carrusel()
-        
-    }
-    .carousel-item-3{
+        @include item-carrusel()    }
+        .carousel-item-3{
         background-image: url(../imgs/collage3.jpg);
-            @include item-carrusel()
-            }
-   
+            @include item-carrusel()       }   
 }
 }
 .galeria{

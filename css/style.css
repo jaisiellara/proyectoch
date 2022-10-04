@@ -6,7 +6,7 @@
 .history {
   display: flex;
   flex-direction: column;
-  margin-top: 100px;
+  margin-top: 10px;
   font-family: "Roboto Slab", serif;
   text-align: justify;
   margin-left: 200px;
@@ -17,7 +17,7 @@
 
 .history {
   background-color: #2D3937;
-  padding: 20px;
+  padding: 30px;
   border-radius: 5px;
   color: white;
 }
@@ -149,7 +149,7 @@ body {
   display: flex;
   flex-direction: row;
   margin-top: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   justify-content: center;
   align-items: center;
   background-image: url(../imgs/flow.jpg);
@@ -160,22 +160,21 @@ body {
 @media only screen and (max-width: 986px) {
   .portada {
     height: 500px;
-    margin-top: 20px;
+    margin-top: 10px;
   }
 }
 .portada img {
-  border-radius: 8px;
+  border-radius: 3px;
   /*media queries*/
 }
 @media only screen and (max-width: 986px) {
   .portada img {
     width: 500px;
-    margin-top: 20px;
   }
 }
 @media only screen and (max-width: 581px) {
   .portada img {
-    width: 340px;
+    width: 100%;
   }
 }
 
@@ -313,7 +312,7 @@ footer h2 {
 }
 @media only screen and (max-width: 986px) {
   .history {
-    margin-top: 15px;
+    margin-top: 5px;
     margin-left: 20px;
     margin-right: 20px;
   }
@@ -360,7 +359,7 @@ footer h2 {
   }
 }
 .carrusel .carrusel-mod {
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 20px;
 }
 .carrusel .carrusel-mod .carousel-item-1 {
@@ -369,7 +368,6 @@ footer h2 {
   background-position: center;
   background-repeat: no-repeat;
   object-fit: fill;
-  background-color: #2D3937;
 }
 .carrusel .carrusel-mod .carousel-item-2 {
   background-image: url(../imgs/collage2.jpg);
@@ -377,7 +375,6 @@ footer h2 {
   background-position: center;
   background-repeat: no-repeat;
   object-fit: fill;
-  background-color: #2D3937;
 }
 .carrusel .carrusel-mod .carousel-item-3 {
   background-image: url(../imgs/collage3.jpg);
@@ -385,7 +382,6 @@ footer h2 {
   background-position: center;
   background-repeat: no-repeat;
   object-fit: fill;
-  background-color: #2D3937;
 }
 
 .galeria {
