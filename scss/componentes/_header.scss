@@ -19,6 +19,9 @@
             border: #EDE6DB;
             font-size: 15px;
             color: #FCF6B1;
+            .navbar-toggler-icon{
+                background-image: url(../imgs/whites.svg);
+            }
         }
         .bar-container{
             .link-mod{
