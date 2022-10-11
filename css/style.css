@@ -489,6 +489,12 @@ footer h2 {
     font-size: "Ms Madi", cursive;
   }
 }
+@media only screen and (max-width: 581px) {
+  .regalos {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
 
 .confirmar {
   display: flex;
