@@ -472,24 +472,22 @@ footer h2 {
 .regalos {
   display: flex;
   flex-direction: column;
-  margin-left: 50px;
-  margin-right: 50px;
-  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
   margin-top: 20px;
   margin-bottom: 20px;
-  font-family: "Roboto Slab", serif;
+}
+.regalos iframe {
+  border-radius: 15px;
 }
 .regalos h1 {
+  text-align: center;
   font-size: 35px;
 }
 @media only screen and (max-width: 581px) {
   .regalos h1 {
-    font-size: 25px;
+    font-size: "Ms Madi", cursive;
   }
-}
-
-.embeed {
-  display: flex;
 }
 
 .confirmar {

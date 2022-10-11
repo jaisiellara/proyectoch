@@ -1,23 +1,20 @@
 .regalos{
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
-    margin-right: 50px;
-    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
-    font-family: $font_gral;
-
+    iframe{
+        border-radius: 15px;
+         }
+    
     h1{
+        text-align: center;
         font-size: $font_m;
         @media only screen and (max-width: 581px){
-            font-size: $font_s;
+            font-size: $font_cursive;
         }
 
     }
 }
-
-.embeed{
-    display: flex;
-}
-
