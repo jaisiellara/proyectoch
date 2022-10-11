@@ -234,6 +234,7 @@ body {
 }
 .foot .map iframe {
   width: -webkit-fill-available;
+  border-radius: 5px;
 }
 
 footer {
