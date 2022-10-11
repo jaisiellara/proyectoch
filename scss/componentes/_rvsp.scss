@@ -1,5 +1,17 @@
+.formulario{
+    margin-bottom: 20px;
 .confirmar{
     display: flex;
     font-family: $font_cursive;
     justify-content: center;
+    font-size: $font_xl;
+    @media only screen and (max-width: 986px){
+        font-size: $font_m;
+    }
+    @media only screen and (max-width: 581px){
+        font-size: $font_s; 
+    }
+
+    
+}
 }

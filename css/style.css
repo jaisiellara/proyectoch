@@ -497,10 +497,24 @@ footer h2 {
   }
 }
 
-.confirmar {
+.formulario {
+  margin-bottom: 20px;
+}
+.formulario .confirmar {
   display: flex;
   font-family: "Ms Madi", cursive;
   justify-content: center;
+  font-size: 65px;
+}
+@media only screen and (max-width: 986px) {
+  .formulario .confirmar {
+    font-size: 35px;
+  }
+}
+@media only screen and (max-width: 581px) {
+  .formulario .confirmar {
+    font-size: 25px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
