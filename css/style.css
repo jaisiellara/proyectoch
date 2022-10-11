@@ -269,47 +269,6 @@ footer h2 {
   }
 }
 
-.formulario {
-  font-family: "Roboto Slab", serif;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  padding: 20px;
-}
-.formulario .formu {
-  display: block;
-  align-content: center;
-  margin: 30px;
-}
-.formulario .formu .confirmar {
-  font-family: "Ms Madi", cursive;
-}
-.formulario .btn_enviar {
-  display: flex;
-  justify-content: center;
-}
-.formulario .btn_enviar .btn-m {
-  background-color: #2D3937;
-  color: white;
-}
-.formulario .btn_enviar .btn-m:hover {
-  background-color: #EA7A0B;
-}
-.formulario .valida {
-  margin: 10px;
-  text-align: center;
-  outline: none !important;
-  outline-width: 0 !important;
-  box-shadow: none;
-  -moz-box-shadow: none;
-  -webkit-box-shadow: none;
-  border-color: black;
-}
-.formulario .asist {
-  display: flex;
-  justify-content: center;
-}
-
 .history {
   margin-left: 150px;
   margin-right: 150px;
@@ -510,14 +469,6 @@ footer h2 {
   }
 }
 
-.forms {
-  display: flex;
-  flex-direction: row;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  justify-content: center;
-}
-
 .regalos {
   display: flex;
   flex-direction: column;
@@ -525,6 +476,7 @@ footer h2 {
   margin-right: 50px;
   text-align: center;
   margin-top: 20px;
+  margin-bottom: 20px;
   font-family: "Roboto Slab", serif;
 }
 .regalos h1 {
@@ -536,25 +488,14 @@ footer h2 {
   }
 }
 
-.liverpool {
+.embeed {
   display: flex;
-  flex-direction: row;
-  margin-top: 20px;
-  margin-bottom: 400px;
+}
+
+.confirmar {
+  display: flex;
+  font-family: "Ms Madi", cursive;
   justify-content: center;
-}
-.liverpool a img {
-  border-radius: 4px;
-}
-@media only screen and (max-width: 986px) {
-  .liverpool a img {
-    width: 500px;
-  }
-}
-@media only screen and (max-width: 581px) {
-  .liverpool a img {
-    width: 400px;
-  }
 }
 
 /*# sourceMappingURL=style.css.map */
