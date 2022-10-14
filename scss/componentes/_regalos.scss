@@ -1,3 +1,10 @@
+.portada_regalos{
+    display: flex;
+    flex-direction: row;
+    
+    img{
+        width: 100%; }
+}
 .regalos{
     display: flex;
     flex-direction: column;
@@ -21,4 +28,9 @@
         margin-left: 0;
         margin-right: 0;
     }
+}
+.row-gi{
+    align-items: center;
+    padding: 20px;
+  
 }
