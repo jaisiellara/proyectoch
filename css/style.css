@@ -519,6 +519,12 @@ footer h2 {
   padding: 30px;
   border-radius: 5px;
 }
+@media only screen and (max-width: 581px) {
+  .formulario-formspree {
+    margin: 5px;
+    padding: 20px;
+  }
+}
 
 .muro {
   margin-top: 30px;
@@ -544,6 +550,8 @@ footer h2 {
 @media only screen and (max-width: 581px) {
   .mesa-regalos h3 {
     font-size: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
 
