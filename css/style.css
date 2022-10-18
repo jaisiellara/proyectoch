@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Bona+Nova&family=Ms+Madi&family=Playfair+Display+SC&family=Square+Peg&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bona+Nova&family=Ms+Madi&family=Playfair+Display+SC&family=Roboto:wght@300&family=Square+Peg&display=swap");
 .forms {
   background-color: white;
 }
@@ -7,7 +7,7 @@
   display: flex;
   flex-direction: column;
   margin-top: 10px;
-  font-family: "Bona Nova", serif;
+  font-family: "Roboto", sans-serif;
   text-align: justify;
   margin-left: 200px;
   margin-right: 200px;
@@ -57,7 +57,7 @@
   margin: 9px;
   padding: 1px;
   text-align: center;
-  font-family: "Bona Nova", serif;
+  font-family: "Roboto", sans-serif;
   font-size: 25px;
 }
 .navbar-mod .container-navmod .bar-container .link-mod:hover {
@@ -92,7 +92,7 @@ header h1 {
   }
 }
 header h4 {
-  font-family: "Bona Nova", serif;
+  font-family: "Roboto", sans-serif;
   font-size: 25px;
   margin-bottom: 10px;
   /*Media Queries*/
@@ -110,7 +110,7 @@ header h4 {
 
 body {
   background-color: #EBE7EE;
-  font-family: "Bona Nova", serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .heads {
@@ -139,7 +139,7 @@ body {
 }
 .heads h3 {
   text-align: center;
-  font-family: "Bona Nova", serif;
+  font-family: "Roboto", sans-serif;
   font-size: 25px;
   /*media queries*/
 }
@@ -261,7 +261,7 @@ footer h1 {
 }
 footer h2 {
   font-size: 35px;
-  font-family: "Bona Nova", serif;
+  font-family: "Roboto", sans-serif;
   /*Media queries*/
 }
 @media only screen and (max-width: 581px) {
@@ -482,7 +482,7 @@ footer h2 {
 }
 
 .form_r {
-  font-family: "Bona Nova", serif;
+  font-family: "Roboto", sans-serif;
   font-size: 25px;
   margin: 30px;
   justify-content: center;
