@@ -475,34 +475,58 @@ footer h2 {
   flex-direction: row;
 }
 .portada_regalos img {
-  width: 100%;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
 }
 
-.regalos {
+.form_r {
+  font-family: "Roboto Slab", serif;
+  font-size: 25px;
+  margin: 30px;
+  justify-content: center;
+}
+@media only screen and (max-width: 986px) {
+  .form_r {
+    font-size: 17px;
+  }
+}
+.form_r .linea-nombre {
+  width: 300px;
+  border-radius: 5px;
+}
+.form_r h3 {
+  text-align: center;
+}
+.form_r .formulario-formspree {
   display: flex;
   flex-direction: column;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  background-color: #2D3937;
+  color: white;
+  margin: 30px;
+  padding: 30px;
+  border-radius: 5px;
 }
-.regalos iframe {
-  border-radius: 15px;
+.form_r .muro {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 300px;
+  width: 100%;
+  border-radius: 5px;
 }
-.regalos h1 {
-  text-align: center;
-  font-size: 35px;
+.form_r .btn-enviar {
+  border-radius: 5px;
 }
-@media only screen and (max-width: 581px) {
-  .regalos h1 {
-    font-size: "Ms Madi", cursive;
-  }
+.form_r .btn-enviar:hover {
+  background-color: #EA7A0B;
+  color: white;
 }
-@media only screen and (max-width: 581px) {
-  .regalos {
-    margin-left: 0;
-    margin-right: 0;
-  }
+
+.mesa-regalos h3 {
+  margin-left: 80px;
+  margin-right: 80px;
+  text-align: justify;
 }
 
 .row-gi {
@@ -510,8 +534,21 @@ footer h2 {
   padding: 20px;
 }
 
+.col-m {
+  padding: 40px;
+  border-radius: 5px;
+}
+.col-m:hover {
+  background-color: #2D3937;
+  color: white;
+}
+.col-m img {
+  background-color: #EBE7EE;
+  border-radius: 5px;
+}
+
 .formulario {
-  margin-bottom: 20px;
+  margin: 20px;
 }
 .formulario .confirmar {
   display: flex;

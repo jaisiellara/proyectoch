@@ -1,36 +1,73 @@
 .portada_regalos{
     display: flex;
-    flex-direction: row;
-    
-    img{
-        width: 100%; }
-}
-.regalos{
-    display: flex;
-    flex-direction: column;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    iframe{
-        border-radius: 15px;
-         }
-    
-    h1{
-        text-align: center;
-        font-size: $font_m;
-        @media only screen and (max-width: 581px){
-            font-size: $font_cursive;
-        }
-
+    flex-direction: row;    
+    img{       
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: $bordergral;        
     }
-    @media only screen and (max-width: 581px){
-        margin-left: 0;
-        margin-right: 0;
+}
+.form_r{
+    font-family: $font_gral;
+    font-size: $font_s;    
+    margin: 30px;   
+    justify-content: center; 
+    @media only screen and (max-width: 986px){
+             font-size: $font_xs;         
+    }   
+    .linea-nombre{
+        width: 300px;
+        border-radius: $bordergral;        
+    }
+    h3{
+        text-align: center;
+        }
+    .formulario-formspree{
+        display: flex;
+        flex-direction: column;        
+        background-color: $bg_contraste;
+        color: $txt_gral;
+        margin: 30px;
+        padding: 30px;
+        border-radius: $bordergral;
+    }
+    .muro{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        height: 300px;
+        width: 100%;
+       border-radius: $bordergral;        
+    } 
+    .btn-enviar{
+        border-radius: 5px;        
+        &:hover{
+            background-color: $bg_aviso;
+            color:$txt_gral;
+        }
+    }
+}
+.mesa-regalos{   
+    h3{
+        margin-left: 80px;
+        margin-right: 80px;
+        text-align: justify;
     }
 }
 .row-gi{
     align-items: center;
     padding: 20px;
-  
+}
+.col-m{    
+    padding: 40px;
+    border-radius: $bordergral;
+    &:hover{
+        background-color: $bg_contraste;
+        color: $txt_gral;
+    }
+    img{
+        background-color: $bg_general;
+        border-radius: $bordergral;
+    }
+
 }
