@@ -16,12 +16,20 @@
     @media only screen and (max-width: 986px){
              font-size: $font_xs;         
     }   
+    
     .linea-nombre{
         width: 300px;
-        border-radius: $bordergral;        
+        border-radius: $bordergral;   
+        @media only screen and (max-width: 581px){
+            width: auto;
+        }     
     }
     h3{
         text-align: center;
+        @media only screen and (max-width: 581px){
+            font-size: $font_xs;
+        }     
+    }
         }
     .formulario-formspree{
         display: flex;
@@ -46,17 +54,20 @@
             color:$txt_gral;
         }
     }
-}
 .mesa-regalos{   
     h3{
         margin-left: 80px;
         margin-right: 80px;
         text-align: justify;
+        @media only screen and (max-width: 581px){
+            font-size: $font_xs;
+        }
     }
 }
 .row-gi{
     align-items: center;
     padding: 20px;
+   
 }
 .col-m{    
     padding: 40px;
@@ -68,6 +79,9 @@
     img{
         background-color: $bg_general;
         border-radius: $bordergral;
+        @media only screen and (max-width: 581px){
+        width: 190px;
+        }
     }
 
 }

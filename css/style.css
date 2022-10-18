@@ -496,10 +496,21 @@ footer h2 {
   width: 300px;
   border-radius: 5px;
 }
+@media only screen and (max-width: 581px) {
+  .form_r .linea-nombre {
+    width: auto;
+  }
+}
 .form_r h3 {
   text-align: center;
 }
-.form_r .formulario-formspree {
+@media only screen and (max-width: 581px) {
+  .form_r h3 {
+    font-size: 17px;
+  }
+}
+
+.formulario-formspree {
   display: flex;
   flex-direction: column;
   background-color: #2D3937;
@@ -508,17 +519,19 @@ footer h2 {
   padding: 30px;
   border-radius: 5px;
 }
-.form_r .muro {
+
+.muro {
   margin-top: 30px;
   margin-bottom: 30px;
   height: 300px;
   width: 100%;
   border-radius: 5px;
 }
-.form_r .btn-enviar {
+
+.btn-enviar {
   border-radius: 5px;
 }
-.form_r .btn-enviar:hover {
+.btn-enviar:hover {
   background-color: #EA7A0B;
   color: white;
 }
@@ -527,6 +540,11 @@ footer h2 {
   margin-left: 80px;
   margin-right: 80px;
   text-align: justify;
+}
+@media only screen and (max-width: 581px) {
+  .mesa-regalos h3 {
+    font-size: 17px;
+  }
 }
 
 .row-gi {
@@ -545,6 +563,11 @@ footer h2 {
 .col-m img {
   background-color: #EBE7EE;
   border-radius: 5px;
+}
+@media only screen and (max-width: 581px) {
+  .col-m img {
+    width: 190px;
+  }
 }
 
 .formulario {
